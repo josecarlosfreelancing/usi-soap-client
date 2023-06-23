@@ -1,0 +1,97 @@
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\obj\Debug\USISampleCode.csprojAssemblyReference.cache
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\obj\Debug\USISampleCode.csproj.CoreCompileInputs.cache
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\bin\Debug\keystore-usi.xml
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\bin\Debug\XmlRequests\BulkUpload.xml
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\bin\Debug\XmlRequests\CreateUSI.xml
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\bin\Debug\USISampleCode.exe.config
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\bin\Debug\USISampleCode.exe
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\bin\Debug\USISampleCode.pdb
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\bin\Debug\Abr.AuskeyManager.dll
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\bin\Debug\BouncyCastle.Crypto.dll
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\bin\Debug\Common.Logging.Core.dll
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\bin\Debug\Common.Logging.dll
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\bin\Debug\Common.Logging.Log4Net1215.dll
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\bin\Debug\log4net.dll
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\bin\Debug\Common.Logging.pdb
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\bin\Debug\Common.Logging.xml
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\bin\Debug\Common.Logging.Core.pdb
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\bin\Debug\Common.Logging.Core.xml
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\bin\Debug\Common.Logging.Log4Net1215.pdb
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\bin\Debug\Common.Logging.Log4Net1215.xml
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\bin\Debug\log4net.xml
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\obj\Debug\USISampleCode.csproj.CopyComplete
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\obj\Debug\USISampleCode.exe
+C:\Developer\ESG\Main\USISampleCode\dotNet\USISampleCode\obj\Debug\USISampleCode.pdb
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\bin\Debug\keystore-usi.xml
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\bin\Debug\XmlRequests\BulkUpload.xml
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\bin\Debug\XmlRequests\CreateUSI.xml
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\bin\Debug\USISampleCode.exe.config
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\bin\Debug\USISampleCode.exe
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\bin\Debug\USISampleCode.pdb
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\bin\Debug\Abr.AuskeyManager.dll
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\bin\Debug\BouncyCastle.Crypto.dll
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\bin\Debug\Common.Logging.Core.dll
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\bin\Debug\Common.Logging.dll
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\bin\Debug\Common.Logging.Log4Net1215.dll
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\bin\Debug\log4net.dll
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\bin\Debug\Common.Logging.pdb
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\bin\Debug\Common.Logging.xml
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\bin\Debug\Common.Logging.Core.pdb
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\bin\Debug\Common.Logging.Core.xml
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\bin\Debug\Common.Logging.Log4Net1215.pdb
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\bin\Debug\Common.Logging.Log4Net1215.xml
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\bin\Debug\log4net.xml
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\obj\Debug\USISampleCode.csproj.CoreCompileInputs.cache
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\obj\Debug\USISampleCode.csproj.CopyComplete
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\obj\Debug\USISampleCode.exe
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\obj\Debug\USISampleCode.pdb
+C:\Developer\2.Usi-Support\dotnet_v4_0 -20-09-2021\dotNet_v4\USISampleCode\obj\Debug\USISampleCode.csprojAssemblyReference.cache
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\bin\Debug\keystore-usi.xml
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\bin\Debug\XmlRequests\BulkUpload.xml
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\bin\Debug\XmlRequests\CreateUSI.xml
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\bin\Debug\USISampleCode.exe.config
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\bin\Debug\USISampleCode.exe
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\bin\Debug\USISampleCode.pdb
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\bin\Debug\Abr.AuskeyManager.dll
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\bin\Debug\BouncyCastle.Crypto.dll
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\bin\Debug\Common.Logging.Core.dll
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\bin\Debug\Common.Logging.dll
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\bin\Debug\Common.Logging.Log4Net1215.dll
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\bin\Debug\log4net.dll
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\bin\Debug\Common.Logging.pdb
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\bin\Debug\Common.Logging.xml
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\bin\Debug\Common.Logging.Core.pdb
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\bin\Debug\Common.Logging.Core.xml
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\bin\Debug\Common.Logging.Log4Net1215.pdb
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\bin\Debug\Common.Logging.Log4Net1215.xml
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\bin\Debug\log4net.xml
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\obj\Debug\USISampleCode.csproj.AssemblyReference.cache
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\obj\Debug\USISampleCode.csproj.CoreCompileInputs.cache
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\obj\Debug\USISampleCode.csproj.CopyComplete
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\obj\Debug\USISampleCode.exe
+C:\developer\Repos\USI\dotNet_v5\USISampleCode\obj\Debug\USISampleCode.pdb
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\bin\Debug\keystore-usi.xml
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\bin\Debug\XmlRequests\BulkUpload.xml
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\bin\Debug\XmlRequests\CreateUSI.xml
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\bin\Debug\USISampleCode.exe.config
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\bin\Debug\USISampleCode.exe
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\bin\Debug\USISampleCode.pdb
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\bin\Debug\Abr.AuskeyManager.dll
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\bin\Debug\BouncyCastle.Crypto.dll
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\bin\Debug\Common.Logging.Core.dll
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\bin\Debug\Common.Logging.dll
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\bin\Debug\Common.Logging.Log4Net1215.dll
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\bin\Debug\log4net.dll
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\bin\Debug\Common.Logging.pdb
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\bin\Debug\Common.Logging.xml
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\bin\Debug\Common.Logging.Core.pdb
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\bin\Debug\Common.Logging.Core.xml
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\bin\Debug\Common.Logging.Log4Net1215.pdb
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\bin\Debug\Common.Logging.Log4Net1215.xml
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\bin\Debug\log4net.xml
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\obj\Debug\USISampleCode.csproj.AssemblyReference.cache
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\obj\Debug\USISampleCode.csproj.SuggestedBindingRedirects.cache
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\obj\Debug\USISampleCode.csproj.CoreCompileInputs.cache
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\obj\Debug\USISampleCode.csproj.CopyComplete
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\obj\Debug\USISampleCode.exe
+E:\Projects\2023-06-09-c#-node-porting\Reference\Dotnet_V5.0 (1)\Dotnet_V5.0\USISampleCode\obj\Debug\USISampleCode.pdb

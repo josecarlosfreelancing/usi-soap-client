@@ -1,0 +1,162 @@
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:trust="http://docs.oasis-open.org/ws-sx/ws-trust/200512" xmlns:tns="http://schemas.microsoft.com/ws/2008/06/identity/securitytokenservice" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:q2="http://vanguard.business.gov.au/2009/02" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" name="SecurityTokenService" targetNamespace="http://schemas.microsoft.com/ws/2008/06/identity/securitytokenservice">
+<wsdl:types>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:trust="http://docs.oasis-open.org/ws-sx/ws-trust/200512" xmlns:tns="http://schemas.microsoft.com/ws/2008/06/identity/securitytokenservice" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:q2="http://vanguard.business.gov.au/2009/02" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" targetNamespace="http://schemas.microsoft.com/ws/2008/06/identity/securitytokenservice/Imports">
+<xsd:import namespace="http://schemas.microsoft.com/Message" schemaLocation="https://softwareauthorisations.acc.ato.gov.au/R3.0/S007v1.3/service.svc?xsd=html/v1.3.0.xsd"/>
+<xsd:import namespace="http://docs.oasis-open.org/ws-sx/ws-trust/200512" schemaLocation="https://softwareauthorisations.acc.ato.gov.au/R3.0/S007v1.3/service.svc?xsd=html/v1.3.1.xsd"/>
+<xsd:import namespace="http://vanguard.business.gov.au/2009/02" schemaLocation="https://softwareauthorisations.acc.ato.gov.au/R3.0/S007v1.3/service.svc?xsd=html/v1.3.2.xsd"/>
+<xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" schemaLocation="https://softwareauthorisations.acc.ato.gov.au/R3.0/S007v1.3/service.svc?xsd=html/v1.3.3.xsd"/>
+</xsd:schema>
+</wsdl:types>
+<wsdl:message name="IWSTrust13Sync_Trust13Issue_OutputMessage">
+<wsdl:part element="trust:RequestSecurityTokenResponseCollection" name="Trust13IssueResult"> </wsdl:part>
+</wsdl:message>
+<wsdl:message name="IWSTrust13Sync_Trust13Validate_InputMessage">
+<wsdl:part element="trust:RequestSecurityToken" name="message"> </wsdl:part>
+</wsdl:message>
+<wsdl:message name="IWSTrust13Sync_Trust13Cancel_InputMessage">
+<wsdl:part element="trust:RequestSecurityToken" name="message"> </wsdl:part>
+</wsdl:message>
+<wsdl:message name="IWSTrust13Sync_Trust13Renew_InputMessage">
+<wsdl:part element="trust:RequestSecurityToken" name="message"> </wsdl:part>
+</wsdl:message>
+<wsdl:message name="IWSTrust13Sync_Trust13Issue_STSFault_FaultMessage">
+<wsdl:part element="q2:STSFault" name="detail"> </wsdl:part>
+</wsdl:message>
+<wsdl:message name="IWSTrust13Sync_Trust13Issue_InputMessage">
+<wsdl:part element="trust:RequestSecurityToken" name="message"> </wsdl:part>
+</wsdl:message>
+<wsdl:message name="IWSTrust13Sync_Trust13Cancel_OutputMessage">
+<wsdl:part element="trust:RequestSecurityTokenResponseCollection" name="Trust13CancelResult"> </wsdl:part>
+</wsdl:message>
+<wsdl:message name="IWSTrust13Sync_Trust13Renew_OutputMessage">
+<wsdl:part element="trust:RequestSecurityTokenResponseCollection" name="Trust13RenewResult"> </wsdl:part>
+</wsdl:message>
+<wsdl:message name="IWSTrust13Sync_Trust13Validate_OutputMessage">
+<wsdl:part element="trust:RequestSecurityTokenResponseCollection" name="Trust13ValidateResult"> </wsdl:part>
+</wsdl:message>
+<wsdl:portType name="IWSTrust13Sync">
+<wsdl:operation name="Trust13Cancel">
+<wsdl:input message="tns:IWSTrust13Sync_Trust13Cancel_InputMessage" wsaw:Action="http://docs.oasis-open.org/ws-sx/ws-trust/200512/RST/Cancel"> </wsdl:input>
+<wsdl:output message="tns:IWSTrust13Sync_Trust13Cancel_OutputMessage" wsaw:Action="http://docs.oasis-open.org/ws-sx/ws-trust/200512/RSTR/CancelFinal"> </wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="Trust13Issue">
+<wsdl:input message="tns:IWSTrust13Sync_Trust13Issue_InputMessage" wsaw:Action="http://docs.oasis-open.org/ws-sx/ws-trust/200512/RST/Issue"> </wsdl:input>
+<wsdl:output message="tns:IWSTrust13Sync_Trust13Issue_OutputMessage" wsaw:Action="http://docs.oasis-open.org/ws-sx/ws-trust/200512/RSTRC/IssueFinal"> </wsdl:output>
+<wsdl:fault message="tns:IWSTrust13Sync_Trust13Issue_STSFault_FaultMessage" name="STSFault" wsaw:Action="Trust13Issue"> </wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="Trust13Renew">
+<wsdl:input message="tns:IWSTrust13Sync_Trust13Renew_InputMessage" wsaw:Action="http://docs.oasis-open.org/ws-sx/ws-trust/200512/RST/Renew"> </wsdl:input>
+<wsdl:output message="tns:IWSTrust13Sync_Trust13Renew_OutputMessage" wsaw:Action="http://docs.oasis-open.org/ws-sx/ws-trust/200512/RSTR/RenewFinal"> </wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="Trust13Validate">
+<wsdl:input message="tns:IWSTrust13Sync_Trust13Validate_InputMessage" wsaw:Action="http://docs.oasis-open.org/ws-sx/ws-trust/200512/RST/Validate"> </wsdl:input>
+<wsdl:output message="tns:IWSTrust13Sync_Trust13Validate_OutputMessage" wsaw:Action="http://docs.oasis-open.org/ws-sx/ws-trust/200512/RSTR/ValidateFinal"> </wsdl:output>
+</wsdl:operation>
+</wsdl:portType>
+<wsdl:binding name="S007SecurityTokenServiceEndpoint" type="tns:IWSTrust13Sync">
+<wsp:PolicyReference URI="#S007SecurityTokenServiceEndpoint_policy"/>
+<soap12:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+<wsdl:operation name="Trust13Cancel">
+<soap12:operation soapAction="http://docs.oasis-open.org/ws-sx/ws-trust/200512/RST/Cancel" style="document"/>
+<wsdl:input>
+<soap12:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="Trust13Issue">
+<soap12:operation soapAction="http://docs.oasis-open.org/ws-sx/ws-trust/200512/RST/Issue" style="document"/>
+<wsdl:input>
+<soap12:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap12:body use="literal"/>
+</wsdl:output>
+<wsdl:fault name="STSFault">
+<soap12:fault name="STSFault" namespace="" use="literal"/>
+</wsdl:fault>
+</wsdl:operation>
+<wsdl:operation name="Trust13Renew">
+<soap12:operation soapAction="http://docs.oasis-open.org/ws-sx/ws-trust/200512/RST/Renew" style="document"/>
+<wsdl:input>
+<soap12:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="Trust13Validate">
+<soap12:operation soapAction="http://docs.oasis-open.org/ws-sx/ws-trust/200512/RST/Validate" style="document"/>
+<wsdl:input>
+<soap12:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+</wsdl:binding>
+<wsdl:service name="SecurityTokenService">
+<wsdl:port binding="tns:S007SecurityTokenServiceEndpoint" name="S007SecurityTokenServiceEndpoint">
+<soap12:address location="https://softwareauthorisations.acc.ato.gov.au/R3.0/S007v1.3/service.svc"/>
+<wsa10:EndpointReference>
+<wsa10:Address>https://softwareauthorisations.acc.ato.gov.au/R3.0/S007v1.3/service.svc</wsa10:Address>
+</wsa10:EndpointReference>
+</wsdl:port>
+</wsdl:service>
+<wsp:Policy wsu:Id="S007SecurityTokenServiceEndpoint_policy">
+<wsp:ExactlyOne>
+<wsp:All>
+<sp:TransportBinding xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702">
+<wsp:Policy>
+<sp:TransportToken>
+<wsp:Policy>
+<sp:HttpsToken/>
+</wsp:Policy>
+</sp:TransportToken>
+<sp:AlgorithmSuite>
+<wsp:Policy>
+<sp:Basic256Sha256Rsa15/>
+</wsp:Policy>
+</sp:AlgorithmSuite>
+<sp:Layout>
+<wsp:Policy>
+<sp:Strict/>
+</wsp:Policy>
+</sp:Layout>
+<sp:IncludeTimestamp/>
+</wsp:Policy>
+</sp:TransportBinding>
+<sp:EndorsingSupportingTokens xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702">
+<wsp:Policy>
+<sp:X509Token sp:IncludeToken="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702/IncludeToken/AlwaysToRecipient">
+<wsp:Policy>
+<sp:RequireThumbprintReference/>
+<sp:WssX509V3Token10/>
+</wsp:Policy>
+</sp:X509Token>
+<sp:SignedParts>
+<sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing"/>
+</sp:SignedParts>
+</wsp:Policy>
+</sp:EndorsingSupportingTokens>
+<sp:Wss11 xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702">
+<wsp:Policy>
+<sp:MustSupportRefKeyIdentifier/>
+<sp:MustSupportRefIssuerSerial/>
+<sp:MustSupportRefThumbprint/>
+<sp:MustSupportRefEncryptedKey/>
+</wsp:Policy>
+</sp:Wss11>
+<sp:Trust13 xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702">
+<wsp:Policy>
+<sp:MustSupportIssuedTokens/>
+<sp:RequireClientEntropy/>
+<sp:RequireServerEntropy/>
+</wsp:Policy>
+</sp:Trust13>
+<wsaw:UsingAddressing/>
+</wsp:All>
+</wsp:ExactlyOne>
+</wsp:Policy>
+</wsdl:definitions>

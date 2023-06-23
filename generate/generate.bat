@@ -1,0 +1,1 @@
+svcutil.exe /out:USIService.cs /noConfig /serializer:XmlSerializer UsiService_3pt.wsdl

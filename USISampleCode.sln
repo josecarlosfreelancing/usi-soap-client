@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USISampleCode", "USISampleCode\USISampleCode.csproj", "{742C3813-C9F3-40E4-A538-72F4DBDDB80C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{CE060E0E-F1A2-49FB-A6A8-EC8E75A09225}"
+	ProjectSection(SolutionItems) = preProject
+		Sample Code Installation Guide - dotNET.docx = Sample Code Installation Guide - dotNET.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "USI Web Services - Vendor Pack", "USI Web Services - Vendor Pack", "{C03B551A-F573-4A89-B85B-12840F5FEF35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "July 2022", "July 2022", "{4D987761-8EDF-4C94-9BA7-D4912D36DAF1}"
+	ProjectSection(SolutionItems) = preProject
+		USI Web Services - Vendor Pack\July 2022\DVS Mock Codes.docx = USI Web Services - Vendor Pack\July 2022\DVS Mock Codes.docx
+		USI Web Services - Vendor Pack\July 2022\Generic USI test Data.docx = USI Web Services - Vendor Pack\July 2022\Generic USI test Data.docx
+		USI Web Services - Vendor Pack\July 2022\M2M - Host Service Provider Authentication Model - USI Test Outline + 3PT Data.docx = USI Web Services - Vendor Pack\July 2022\M2M - Host Service Provider Authentication Model - USI Test Outline + 3PT Data.docx
+		USI Web Services - Vendor Pack\July 2022\M2M - RTO or HE Self Authentication model - USI Test Outline + 3PT Data.docx = USI Web Services - Vendor Pack\July 2022\M2M - RTO or HE Self Authentication model - USI Test Outline + 3PT Data.docx
+		USI Web Services - Vendor Pack\July 2022\MAS-ST Authentication Service - Outline of cloud host authentication.docx = USI Web Services - Vendor Pack\July 2022\MAS-ST Authentication Service - Outline of cloud host authentication.docx
+		USI Web Services - Vendor Pack\July 2022\MAS-ST Service Provider Hosted Authentication - SSID Requirements.docx = USI Web Services - Vendor Pack\July 2022\MAS-ST Service Provider Hosted Authentication - SSID Requirements.docx
+		USI Web Services - Vendor Pack\July 2022\ReadMeFirst.docx = USI Web Services - Vendor Pack\July 2022\ReadMeFirst.docx
+		USI Web Services - Vendor Pack\July 2022\TSC - USI Web Services - May2022.docx = USI Web Services - Vendor Pack\July 2022\TSC - USI Web Services - May2022.docx
+		USI Web Services - Vendor Pack\July 2022\USI Check Character Algorithm.docx = USI Web Services - Vendor Pack\July 2022\USI Check Character Algorithm.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "generate", "generate", "{E3736AAE-B908-4AEB-A6B9-339C46E9100E}"
+	ProjectSection(SolutionItems) = preProject
+		generate\generate.bat = generate\generate.bat
+		generate\USIService.cs = generate\USIService.cs
+		generate\UsiService_3pt.wsdl = generate\UsiService_3pt.wsdl
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{742C3813-C9F3-40E4-A538-72F4DBDDB80C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{742C3813-C9F3-40E4-A538-72F4DBDDB80C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{742C3813-C9F3-40E4-A538-72F4DBDDB80C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{742C3813-C9F3-40E4-A538-72F4DBDDB80C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C03B551A-F573-4A89-B85B-12840F5FEF35} = {CE060E0E-F1A2-49FB-A6A8-EC8E75A09225}
+		{4D987761-8EDF-4C94-9BA7-D4912D36DAF1} = {C03B551A-F573-4A89-B85B-12840F5FEF35}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36A5C579-103C-4C38-81CA-D002E2E4AE4C}
+	EndGlobalSection
+EndGlobal

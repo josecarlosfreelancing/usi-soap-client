@@ -1,0 +1,29 @@
+<s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope">
+  <s:Header>
+    <a:Action s:mustUnderstand="1">http://docs.oasis-open.org/ws-sx/ws-trust/200512/RST/Issue</a:Action>
+    <a:MessageID>urn:uuid:2091fd91-a640-4654-bf36-96dc912c8873</a:MessageID>
+    <a:ReplyTo>
+      <a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address>
+    </a:ReplyTo>
+  </s:Header>
+  <s:Body>
+    <trust:RequestSecurityToken xmlns:trust="http://docs.oasis-open.org/ws-sx/ws-trust/200512">
+      <wsp:AppliesTo xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy">
+        <wsa:EndpointReference xmlns:wsa="http://www.w3.org/2005/08/addressing">
+          <wsa:Address>https://3pt.portal.usi.gov.au/service/usiservice.svc</wsa:Address>
+        </wsa:EndpointReference>
+      </wsp:AppliesTo>
+      <trust:Claims xmlns:i="http://schemas.xmlsoap.org/ws/2005/05/identity" Dialect="http://schemas.xmlsoap.org/ws/2005/05/identity">
+        <i:ClaimType Uri="http://vanguard.ebusiness.gov.au/2008/06/identity/claims/abn" Optional="false" />
+        <i:ClaimType Uri="http://vanguard.ebusiness.gov.au/2008/06/identity/claims/credentialtype" Optional="false" />
+      </trust:Claims>
+      <trust:KeyType>http://docs.oasis-open.org/ws-sx/ws-trust/200512/SymmetricKey</trust:KeyType>
+      <trust:Lifetime>
+        <wsu:Created xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">2023-06-14T18:24:43.091Z</wsu:Created>
+        <wsu:Expires xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">2023-06-14T19:24:43.091Z</wsu:Expires>
+      </trust:Lifetime>
+      <trust:RequestType>http://docs.oasis-open.org/ws-sx/ws-trust/200512/Issue</trust:RequestType>
+      <trust:TokenType>http://docs.oasis-open.org/wss/oasis-wss-saml-token-profile-1.1#SAMLV1.1</trust:TokenType>
+    </trust:RequestSecurityToken>
+  </s:Body>
+</s:Envelope>
